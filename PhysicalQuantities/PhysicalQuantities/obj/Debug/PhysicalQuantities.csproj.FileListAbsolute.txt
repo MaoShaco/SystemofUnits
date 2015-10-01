@@ -1,0 +1,6 @@
+Q:\Programming\Projects\Visual Studio\PhysicalQuantities\PhysicalQuantities\bin\Debug\PhysicalQuantities.exe.config
+Q:\Programming\Projects\Visual Studio\PhysicalQuantities\PhysicalQuantities\bin\Debug\PhysicalQuantities.exe
+Q:\Programming\Projects\Visual Studio\PhysicalQuantities\PhysicalQuantities\bin\Debug\PhysicalQuantities.pdb
+Q:\Programming\Projects\Visual Studio\PhysicalQuantities\PhysicalQuantities\obj\Debug\PhysicalQuantities.csprojResolveAssemblyReference.cache
+Q:\Programming\Projects\Visual Studio\PhysicalQuantities\PhysicalQuantities\obj\Debug\PhysicalQuantities.exe
+Q:\Programming\Projects\Visual Studio\PhysicalQuantities\PhysicalQuantities\obj\Debug\PhysicalQuantities.pdb
