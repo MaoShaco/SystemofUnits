@@ -43,25 +43,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseUnits\DerivedUnits\AccelerationUnits.cs" />
-    <Compile Include="BaseUnits\DerivedUnits\DerivedUnit.cs" />
-    <Compile Include="BaseUnits\DerivedUnits\EnergyUnits.cs" />
-    <Compile Include="BaseUnits\DerivedUnits\ForceUnits.cs" />
-    <Compile Include="BaseUnits\DerivedUnits\FrequencyUnits.cs" />
-    <Compile Include="BaseUnits\DerivedUnits\PowerUnits.cs" />
-    <Compile Include="BaseUnits\DerivedUnits\SpeedUnits.cs" />
-    <Compile Include="BaseUnits\DerivedUnits\VoltageUnits.cs" />
-    <Compile Include="BaseUnits\Exceptions\PhysicalBaseUnitOperationException.cs" />
-    <Compile Include="BaseUnits\Exceptions\PhysicalBaseUnitOperationOtherUnitsException.cs" />
-    <Compile Include="BaseUnits\Exceptions\PhysicalBaseUnitOperationTypeCastException.cs" />
-    <Compile Include="BaseUnits\Operations.cs" />
-    <Compile Include="BaseUnits\PhysicalUnits\ElectricUnits.cs" />
-    <Compile Include="BaseUnits\PhysicalUnits\TimeUnits.cs" />
-    <Compile Include="BaseUnits\PhysicalUnits\WeightUnits.cs" />
+    <Compile Include="Units\BaseUnits\Electric\ElectricConvertor.cs" />
+    <Compile Include="Units\BaseUnits\Electric\ElectricUnit.cs" />
+    <Compile Include="Units\BaseUnits\Length\LengthConvertor.cs" />
+    <Compile Include="Units\BaseUnits\Length\LengthUnit.cs" />
+    <Compile Include="Units\BaseUnits\Time\TimeConvertor.cs" />
+    <Compile Include="Units\BaseUnits\Time\TimeUnit.cs" />
+    <Compile Include="Units\BaseUnits\Weight\WeightUnit.cs" />
+    <Compile Include="Units\BaseUnits\Weight\WeightConvertor.cs" />
+    <Compile Include="Units\DerivedUnits\AccelerationUnits.cs" />
+    <Compile Include="Units\DerivedUnits\AreaUnits.cs" />
+    <Compile Include="Units\DerivedUnits\EnergyUnits.cs" />
+    <Compile Include="Units\DerivedUnits\ForceUnits.cs" />
+    <Compile Include="Units\DerivedUnits\FrequencyUnits.cs" />
+    <Compile Include="Units\DerivedUnits\PowerUnits.cs" />
+    <Compile Include="Units\DerivedUnits\SpeedUnits.cs" />
+    <Compile Include="Units\DerivedUnits\VoltageUnits.cs" />
+    <Compile Include="Units\DerivedUnits\VolumeUnits.cs" />
+    <Compile Include="Units\Exceptions\PhysicalBaseUnitOperationException.cs" />
+    <Compile Include="Units\Exceptions\PhysicalBaseUnitOperationOtherUnitsException.cs" />
+    <Compile Include="Units\Exceptions\PhysicalBaseUnitOperationTypeCastException.cs" />
+    <Compile Include="Units\Operations.cs" />
+    <Compile Include="Units\BaseUnits\Electric\ElectricUnits.cs" />
+    <Compile Include="Units\BaseUnits\Time\TimeUnits.cs" />
+    <Compile Include="Units\BaseUnits\Weight\WeightUnits.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BaseUnits\PhysicalUnits\LengthUnits.cs" />
-    <Compile Include="BaseUnits\BaseUnit.cs" />
+    <Compile Include="Units\BaseUnits\Length\LengthUnits.cs" />
+    <Compile Include="Units\BaseUnits\BaseUnit.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

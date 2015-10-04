@@ -1,4 +1,7 @@
-﻿namespace PhysicalQuantities.BaseUnits.Exceptions
+﻿using PhysicalQuantities.BaseUnits;
+using PhysicalQuantities.Units.BaseUnits;
+
+namespace PhysicalQuantities.Units.Exceptions
 {
     class PhysicalBaseUnitOperationTypeCastException : PhysicalBaseUnitOperationException
     {

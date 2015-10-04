@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PhysicalQuantities.BaseUnits.Exceptions
+namespace PhysicalQuantities.Units.Exceptions
 {
     class PhysicalBaseUnitOperationException : Exception
     {

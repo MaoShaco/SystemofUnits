@@ -1,5 +1,8 @@
 ﻿using System;
-using PhysicalQuantities.BaseUnits.Exceptions;
+using PhysicalQuantities.Units.BaseUnits.Length;
+using PhysicalQuantities.Units.BaseUnits.Weight;
+using PhysicalQuantities.Units.DerivedUnits;
+using PhysicalQuantities.Units.Exceptions;
 
 namespace PhysicalQuantities
 {
@@ -9,7 +12,9 @@ namespace PhysicalQuantities
         {
             try
             {
-
+                var a = new LengthUnits(5, LengthUnit.Mile);
+                var b = new LengthUnits(6, LengthUnit.Centimeter);
+                Console.WriteLine(a*a*a/(a*b));
             }
             catch (PhysicalBaseUnitOperationException exception)
             {
